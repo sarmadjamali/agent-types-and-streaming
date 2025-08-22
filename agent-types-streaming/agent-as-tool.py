@@ -55,7 +55,7 @@ orchestrator = Agent(
 
 
 async def main():
-    result = await Runner.run(orchestrator, "Please say 'Good morning' in Spanish.")
+    result = await Runner.run(orchestrator, "Please say 'Good morning' in French.")
     print(result.final_output)
 
 if __name__ == "__main__":
